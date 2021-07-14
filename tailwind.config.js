@@ -9,7 +9,8 @@ module.exports = {
       },
       colors: {
         background: '#F9EBDF',
-        title: '#331B18'
+        title: '#331B18',
+        water: '#CBE4F9'
       },
       fontFamily: {
         all: ['Bona Nova']

@@ -1,7 +1,9 @@
 import React from "react"
-import AboutPage from "./components/AboutPage"
-import TitlePage from "./components/TitlePage"
+import AboutPage from "./pages/AboutPage"
+import TitlePage from "./pages/TitlePage"
 import SideBar from "./components/SideBar"
+import ProjectsPage from "./pages/ProjectsPage"
+import ResumePage from "./pages/ResumePage"
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <SideBar/>
       <TitlePage/>
       <AboutPage/>
+      <ProjectsPage/>
+      <ResumePage/>
     </>
   )
 }

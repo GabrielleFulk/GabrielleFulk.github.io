@@ -4,7 +4,7 @@ import headshot from "../assets/headshot.jpg"
 const AboutPage = () => {
     return (
         <div className="flex flex-row h-screen">
-            <div className="flex flex-col w-1/4"></div>
+            <div className="flex flex-col w-1/4"/>
             <div className="page-heading">
                 About<br/>Me
             </div>
