@@ -6,6 +6,13 @@ module.exports = {
       spacing: {
         '1/1': '100%',
         '2/3': '66.666667%'
+      },
+      colors: {
+        background: '#F9EBDF',
+        title: '#331B18'
+      },
+      fontFamily: {
+        all: ['Bona Nova']
       }
     },
   },
