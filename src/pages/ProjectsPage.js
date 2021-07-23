@@ -6,7 +6,7 @@ const websiteDesc = ("This website is my first publicly displayed front-end proj
 
 const ProjectsPage = () => {
     return (
-        <div className="flex flex-row h-screen">
+        <div className="flex flex-row pb-32">
             {/* <div className="flex flex-col w-1/4"/> */}
             <div className="container w-36"/> 
             <div className="page-heading pr-10">

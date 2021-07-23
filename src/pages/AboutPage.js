@@ -3,7 +3,7 @@ import headshot from "../assets/headshot.jpg"
 
 const AboutPage = () => {
     return (
-        <div className="flex flex-row h-screen">
+        <div className="flex flex-row">
             <div className="container w-36"/> 
             <div className="page-heading">
                 About<br/>Me
