@@ -7,15 +7,16 @@ const websiteDesc = ("This website is my first publicly displayed front-end proj
 const ProjectsPage = () => {
     return (
         <div className="flex flex-row pb-32">
-            {/* <div className="flex flex-col w-1/4"/> */}
-            <div className="container w-36"/> 
-            <div className="page-heading pr-10">
+            <div className="flex flex-col w-36"/>
+            <div className="page-heading w-24">
                 Projects
             </div>
+            <div className="flex flex-col w-36"/>
             <div className="flex flex-row">
                 <ProjectCard image={websiteSS} name="gabriellefulk.dev" description={websiteDesc} btnName="GITHUB" btnLink="https://github.com/GabrielleFulk/GabrielleFulk.github.io"/>
                 <ProjectCard image={websiteSS} name="gabriellefulk.dev" description={websiteDesc} btnName="GITHUB" btnLink="https://github.com/GabrielleFulk/GabrielleFulk.github.io"/>
             </div>
+            <div className="flex flex-col w-36"/>
         </div>
     )
 }

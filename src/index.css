@@ -8,4 +8,7 @@
     .page-heading {
       @apply text-title text-2xl font-semibold text-right tracking-wide;
     }
+    .icon {
+      @apply h-4 w-4
+    }
   }

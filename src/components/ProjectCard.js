@@ -2,7 +2,7 @@ import React from "react"
 
 const ProjectCard = ({image, name, description, btnName, btnLink}) => {
     return (
-        <div className="flex flex-col h-min w-64 space-y-4 text-title px-3">
+        <div className="flex flex-col h-min w-64 space-y-4 text-title pr-8">
             <img className="rounded-xl border-8 border-water shadow-md" src={image} alt=""/>
             <div className="text-lg font-bold">
                 {name}
@@ -10,9 +10,8 @@ const ProjectCard = ({image, name, description, btnName, btnLink}) => {
             <div className="">
                 {description}
             </div>
-            <button className= "bg-water w-20 h-7 rounded-md border-0 shadow-md" href={btnLink}>
-                {<span className="text-bold font-sm">{btnName}</span>} 
-                {/* this span isn't doing anything... */}
+            <button className= "bg-water py-1 px-2 rounded-md border-0 shadow-md tracking-tighter text-sm font-bold" href={btnLink}>
+                {btnName} 
             </button>
         </div>
     )
