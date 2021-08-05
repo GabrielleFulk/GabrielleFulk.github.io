@@ -5,10 +5,10 @@ import resumeDownload from "../assets/resumeDownload.pdf"
 
 const ResumePage = () => {
     return (
-        <div className="flex flex-row pb-10">
+        <div className="flex flex-row flex-wrap pb-10">
             <SpacerColumn/>
             <div className="flex flex-col">
-                <div className="page-heading w-24">
+                <div className="page-heading w-24 pb-8">
                     Resume
                 </div>
             </div>
@@ -21,7 +21,6 @@ const ResumePage = () => {
                         <button className= "bg-water py-1 px-2 rounded-md border-0 shadow-md tracking-tighter text-sm font-bold">DOWNLOAD</button>
                     </a>
                 </div>
-                <SpacerColumn/>
             </div>
         </div>
     )

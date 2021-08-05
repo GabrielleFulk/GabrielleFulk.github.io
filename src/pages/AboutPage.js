@@ -12,7 +12,7 @@ import PoolOutlinedIcon from '@material-ui/icons/PoolOutlined'
 
 const AboutPage = () => {
     return (
-        <div className="flex flex-row py-32">
+        <div className="flex flex-row flex-wrap py-32">
             <SpacerColumn/>
             <div className="page-heading w-24">
                 About<br/>Me

@@ -2,7 +2,7 @@ import React from "react"
 
 const ProjectCard = ({image, name, description, btnName, btnLink}) => {
     return (
-        <div className="flex flex-col h-min w-64 space-y-4 text-title pr-8">
+        <div className="flex flex-col h-min w-60 space-y-4 text-title pr-8 mb-8">
             <img className="rounded-xl border-8 border-water shadow-md" src={image} alt=""/>
             <div className="text-lg font-bold">
                 {name}
