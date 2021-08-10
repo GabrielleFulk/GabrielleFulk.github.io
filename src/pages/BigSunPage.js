@@ -13,14 +13,15 @@ const BigSunPage = () => {
             <SideSpacerColumn/>
             <div className="flex flex-col w-full">
                 <div className="flex flex-row flex-wrap pt-7">
-                    <div className="page-heading pl-2 sm:pl-10">
+                    <div className="page-heading pt-7 pl-2 sm:pl-10">
                         Big Sun Solar Internship Projects
                     </div>
-                    <div className="pl-4 pt-2">
-                        <a className= "bg-xanadu text-white py-1 px-2 rounded-md border-0 shadow-md tracking-tighter text-sm font-bold self-center" href="/">
-                            Home 
-                        </a>
-                    </div>
+                </div>
+                <div className= "text-sm pt-2 pb-4 pl-2 sm:pl-10">
+                    *images are from testing, not actual user data
+                </div>
+                <div className="pl-2 sm:pl-10">
+                    <a className="button" href="/">Home</a>
                 </div>
                 <div className="flex flex-row flex-wrap flex-auto px-3">
                     <div className="flex flex-col flex-auto w-96 max-w-lg space-y-4 p-7">
@@ -36,7 +37,7 @@ const BigSunPage = () => {
                         <p className="font-semibold">
                             Skills: Ruby on Rails, React (JavaScript), Postman (for testing API calls)
                         </p>
-                        <img className="w-full self-center rounded-md shadow-md" src={Email} alt=""/>
+                        <img className="internship-image" src={Email} alt=""/>
                     </div>
                     <div className="flex flex-col flex-auto w-96 max-w-lg space-y-4 p-7">
                         <div className="text-lg text-title font-bold">
@@ -49,7 +50,7 @@ const BigSunPage = () => {
                         <p className="font-semibold">
                             Skills: Ruby on Rails, Twilio
                         </p>
-                        <img className="w-full self-center rounded-md shadow-md" src={NPSText} alt=""/>
+                        <img className="internship-image" src={NPSText} alt=""/>
                     </div>
                     <div className="flex flex-col flex-auto w-96 max-w-lg space-y-4 p-7">
                         <div className="text-lg text-title font-bold">
@@ -62,10 +63,10 @@ const BigSunPage = () => {
                         <p className="font-semibold">
                             Skills: React (JavaScript), Ruby on Rails
                         </p>
-                        <img className="w-full self-center rounded-md shadow-md" src={Survey2} alt=""/>
-                        <img className="w-full self-center rounded-md shadow-md" src={AdminDisplay1} alt=""/>
-                        <img className="w-full self-center rounded-md shadow-md" src={AdminDisplay2} alt=""/>
-                        <img className="w-full self-center rounded-md shadow-md" src={AdminDisplay3} alt=""/>
+                        <img className="internship-image" src={Survey2} alt=""/>
+                        <img className="internship-image" src={AdminDisplay1} alt=""/>
+                        <img className="internship-image" src={AdminDisplay2} alt=""/>
+                        <img className="internship-image" src={AdminDisplay3} alt=""/>
                     </div>
                 </div>
             </div>

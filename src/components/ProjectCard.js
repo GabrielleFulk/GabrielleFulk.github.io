@@ -10,7 +10,7 @@ const ProjectCard = ({image, name, description, btnName, btnLink}) => {
             <div>
                 {description}
             </div>
-            <a className= "bg-xanadu text-white py-1 px-2 rounded-md border-0 shadow-md tracking-tighter text-sm font-bold self-center" href={btnLink}>
+            <a className="button" href={btnLink}>
                 {btnName} 
             </a>
         </div>

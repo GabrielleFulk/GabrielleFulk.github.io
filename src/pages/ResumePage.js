@@ -17,7 +17,7 @@ const ResumePage = () => {
                 <div className="flex flex-col items-center space-y-3 pt-7">
                     <img className="h-full w-full rounded-lg border-8 border-xanadu shadow-md" src={resume} alt=""/>
                     <a href={resumeDownload} download="GabrielleFulkResume">
-                        <button className= "bg-xanadu text-white py-1 px-2 rounded-md border-0 shadow-md tracking-tighter text-sm font-bold">DOWNLOAD</button>
+                        <button className= "button">DOWNLOAD</button>
                     </a>
                 </div>
             </div>

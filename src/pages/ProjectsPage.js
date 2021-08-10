@@ -1,7 +1,7 @@
 import React from "react"
 import SideSpacerColumn from "../components/SideSpacerColumn"
-import websiteSS from "../assets/websiteSS.jpg"
-import Survey1 from "../assets/Survey1.JPG"
+import websiteSS from "../assets/fullWebsiteSS.JPG"
+import Survey1 from "../assets/Survey1-cropped.jpg"
 import SpacerColumn from "../components/SpacerColumn"
 import ProjectCard from "../components/ProjectCard"
 

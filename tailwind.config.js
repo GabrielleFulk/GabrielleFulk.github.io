@@ -9,7 +9,7 @@ module.exports = {
       },
       colors: {
         background: '#F9EBDF',
-        title: '#331B18',
+        textColor: '#331B18',
         water: '#CBE4F9',
         silverPink: '#C9ADA1',
         artichoke: '#A0A083',
@@ -17,7 +17,6 @@ module.exports = {
         deepSpaceSparkle: '#4D6A6D',
       },
       fontFamily: {
-        all: ['Bona Nova'],
         spectral: ['Spectral'],
       }
     },
