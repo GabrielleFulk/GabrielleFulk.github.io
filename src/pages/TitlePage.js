@@ -1,12 +1,9 @@
 import React from "react"
-// import SpacerColumn from "../components/SpacerColumn"
 
 const TitlePage = () => {
     return (
-        <>
         <div className="flex flex-col justify-center h-screen text-8xl sm:text-9xl font-medium text-title tracking-wide">
             <div className="flex flex-row justify-center">
-                {/* <SpacerColumn/>  */}
                 <div className="text-right">
                     Gabrielle<br/>Fulk
                 </div>
@@ -19,7 +16,6 @@ const TitlePage = () => {
                 </div>
             </div>
         </div>
-        </>
     )
 }
 

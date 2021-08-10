@@ -1,19 +1,12 @@
-import React from "react"
-import AboutPage from "./pages/AboutPage"
-import TitlePage from "./pages/TitlePage"
+import Webpages from "./pages"
 import SideBar from "./components/SideBar"
-import ProjectsPage from "./pages/ProjectsPage"
-import ResumePage from "./pages/ResumePage"
 
 function App() {
   return (
-    <>
+    <div>
       <SideBar/>
-      <TitlePage/>
-      <AboutPage/>
-      <ProjectsPage/>
-      <ResumePage/>
-    </>
+      <Webpages/>
+    </div>
   )
 }
 

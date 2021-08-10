@@ -20,7 +20,7 @@ const ProjectsPage = () => {
             <SpacerColumn/>
             <div className="flex flex-row flex-wrap flex-auto m-auto justify-center pl-3 pr-3">
                 <ProjectCard image={websiteSS} name="gabriellefulk.dev" description={websiteDesc} btnName="GITHUB" btnLink="https://github.com/GabrielleFulk/GabrielleFulk.github.io"/>
-                <ProjectCard image={Survey1} name="Big Sun Internship" description={BigSunDesc} btnName="READ MORE" btnLink=""/>
+                <ProjectCard image={Survey1} name="Big Sun Internship" description={BigSunDesc} btnName="READ MORE" btnLink="/big-sun-solar-internship"/>
             </div>
             <SideSpacerColumn/>
         </div>

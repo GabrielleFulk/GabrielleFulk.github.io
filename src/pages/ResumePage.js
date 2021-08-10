@@ -1,7 +1,7 @@
 import React from "react"
 import SideSpacerColumn from "../components/SideSpacerColumn"
-import resume from "../assets/resume.jpg"
-import resumeDownload from "../assets/resumeDownload.pdf"
+import resume from "../assets/resume.JPG"
+import resumeDownload from "../assets/GabrielleFulkResume.pdf"
 
 const ResumePage = () => {
     return (

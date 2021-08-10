@@ -7,10 +7,6 @@ module.exports = {
         '1/1': '100%',
         '2/3': '66.666667%',
       },
-      height: {
-        'headshot': '24 rem',
-        '128': '32rem',
-      },
       colors: {
         background: '#F9EBDF',
         title: '#331B18',

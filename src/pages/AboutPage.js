@@ -22,7 +22,7 @@ const AboutPage = () => {
                     <img className= "self-center rounded-lg" src={headshot} alt="Headshot"/>
                 </div>
                 <SpacerColumn/>
-                <div className="flex flex-col flex-auto w-96 space-y-7 py-5 text-title tracking-wide">
+                <div className="flex flex-col flex-auto w-96 space-y-7 py-5 text-title">
                     <div style={{listStyle: 'none'}}>
                         <li> <LaptopChromebookOutlinedIcon/> Computer science major and economics minor</li>
                         <li> <SchoolOutlinedIcon/> Trinity University class of 2023</li>
