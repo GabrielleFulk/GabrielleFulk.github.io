@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 import {
   BrowserRouter as Router,
   Route,
-} from "react-router-dom";
+} from "react-router-dom"
 
 import Main from './Main'
-import BigSunPage from './BigSunPage';
+import BigSunPage from './BigSunPage'
 
 const Webpages = () => {
   return (
@@ -15,6 +15,5 @@ const Webpages = () => {
     </Router>
   )
 }
-
 
 export default Webpages
