@@ -10,10 +10,10 @@ import BigSunPage from './BigSunPage'
 
 const Webpages = () => {
   return (
-    <Router basename="/gabriellefulk.github.io">
+    <Router>
       <Switch>
-        <Route exact path="/" component={Main} />
-        <Route path = "/big-sun-solar-internship" component = {BigSunPage} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Main} />
+        <Route path={process.env.PUBLIC_URL + '/big-sun-solar-internship'} component = {BigSunPage} />
       </Switch>
     </Router>
   )
