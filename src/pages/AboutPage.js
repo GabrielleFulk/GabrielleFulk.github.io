@@ -12,24 +12,24 @@ import PoolOutlinedIcon from '@material-ui/icons/PoolOutlined'
 
 const AboutPage = () => {
     return (
-        <div className="flex flex-row flex-wrap py-32">
+        <div className="flex flex-row flex-wrap py-24">
             <SideSpacerColumn/>
             <div className="page-heading">
                 About Me
             </div>
-            <div className="flex flex-row flex-wrap m-auto pl-10 pr-3">
+            <div className="flex flex-row flex-wrap m-auto pl-14 sm:pl-10 pr-3">
                 <div className="flex flex-col py-5">
                     <img className= "self-center rounded-lg" src={headshot} alt="Headshot"/>
                 </div>
                 <SpacerColumn/>
                 <div className="flex flex-col flex-auto w-96 space-y-7 py-5">
                     <div style={{listStyle: 'none'}}>
-                        <li> <LaptopChromebookOutlinedIcon/> Computer science major and economics minor</li>
-                        <li> <SchoolOutlinedIcon/> Trinity University class of 2023</li>
-                        <li> <FilterHdrOutlinedIcon/> Arizona native</li>
-                        <li> <PoolOutlinedIcon/> College diver</li>
-                        <li> <LocalLibraryOutlinedIcon/> Book lover</li>
-                        <li> <LocalFloristOutlinedIcon/> Plant enthusiest</li>
+                        <li className="pb-1"> <LaptopChromebookOutlinedIcon/> Computer science major and economics minor</li>
+                        <li className="pb-1"> <SchoolOutlinedIcon/> Trinity University class of 2023</li>
+                        <li className="pb-1"> <FilterHdrOutlinedIcon/> Arizona native</li>
+                        <li className="pb-1"> <PoolOutlinedIcon/> College diver</li>
+                        <li className="pb-1"> <LocalLibraryOutlinedIcon/> Book lover</li>
+                        <li className="pb-1"> <LocalFloristOutlinedIcon/> Plant enthusiest</li>
                         <li> <LocalCafeOutlinedIcon/>Coffeeshop connoisseur</li>
                     </div>
                     <div>
@@ -38,7 +38,7 @@ const AboutPage = () => {
                         and challenging. The ability to be creative within such a logical field allows all aspects of my interests to join. This love of logic, 
                         problem solving, and creativity has led me to be interested in software development as well as all things data related. 
                         <br/><br/>
-                        Aside from computer science I enjoy finding new coffee shops, working on any sort of craft project, reading, and diving! I’m passionate 
+                        Aside from computer science I enjoy finding new coffee shops, working on any sort of craft project, reading, and diving. I’m passionate 
                         about supporting women in technology, sustainability and climate change, and health/fitness.
                     </div>
                 </div>

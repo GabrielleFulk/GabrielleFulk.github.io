@@ -10,7 +10,7 @@ const ResumePage = () => {
             <div className="page-heading">
                 Resume
             </div>
-            <div className="flex flex-row justify-center m-auto pr-3">
+            <div className="flex flex-row justify-center m-auto pl-4 sm:pl-0 pr-3">
                 <div className="flex flex-col items-center space-y-3 pt-7 pl-10 sm:pl-0">
                     <img className="rounded-lg shadow-md border-8 border-xanadu" src={resume} alt="Screenshot of resume"/>
                     <a href={resumeDownload} download="GabrielleFulkResume">

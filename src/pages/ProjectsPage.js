@@ -11,18 +11,18 @@ const bigSunDesc = ("Summer 2021 I designed and developed a NPS pop-up survey fo
 
 const ProjectsPage = () => {
     return (
-        <div className="flex flex-row flex-wrap m-auto pb-32">
+        <div className="flex flex-row flex-wrap m-auto pb-24">
             <SideSpacerColumn/>
             <div className="page-heading">
                 Projects
             </div>
             <SpacerColumn/>
-            <div className="flex flex-row flex-wrap flex-auto m-auto justify-center px-3">
+            <div className="flex flex-row flex-wrap flex-auto m-auto justify-center pl-7 sm:pl-3 pr-3">
                 <ProjectCard 
                     image={websiteSS} 
                     name="gabriellefulk.dev" 
                     description={websiteDesc} 
-                    button={ <a className="button" href="https://github.com/GabrielleFulk/GabrielleFulk.github.io">"GITHUB"</a> } 
+                    button={ <a className="button" href="https://github.com/GabrielleFulk/GabrielleFulk.github.io">GITHUB</a> } 
                 />
                 <ProjectCard 
                     image={Survey1}

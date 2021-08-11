@@ -18,13 +18,13 @@ const BigSunPage = () => {
         <div className="flex flex-row m-auto">
             <SideSpacerColumn/>
             <div className="flex flex-col w-full">
-                <div className="text-3xl font-semibold tracking-wide pt-7 pl-2 sm:pl-10">
+                <div className="text-3xl font-semibold tracking-wide pt-7 pl-10">
                     Big Sun Solar Internship Projects
                 </div>
-                <div className= "text-sm pt-2 pb-4 pl-2 sm:pl-10">
+                <div className= "text-sm pt-2 pb-4 pl-10">
                     *images are from testing, not actual user data
                 </div>
-                <div className="pl-2 sm:pl-10">
+                <div className="pl-10">
                     <a className="button" href="/">Home</a>
                 </div>
                 <div className="flex flex-row flex-wrap flex-auto px-3">
