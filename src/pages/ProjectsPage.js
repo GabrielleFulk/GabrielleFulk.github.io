@@ -7,7 +7,7 @@ import websiteSS from "../assets/websiteSS.JPG"
 import Survey1 from "../assets/Survey1.jpg"
 
 const websiteDesc = ("This website is my first publicly displayed front-end project. I built it using ReactJS and Tailwind. As my portfolio grows and my creative vision evolves I plan to continue to update it.")
-const bigSunDesc = ("Summer 2021 I designed and developed a NPS pop-up survey for the customer portal, an automated annual NPS text survey, a dashboard summarizing the data, and implemented email change verification")
+const bigSunDesc = ("Summer 2021 I designed and developed a NPS pop-up survey for the customer portal, an automated annual NPS text survey, a dashboard summarizing the data, and implemented email change verification.")
 
 const ProjectsPage = () => {
     return (
