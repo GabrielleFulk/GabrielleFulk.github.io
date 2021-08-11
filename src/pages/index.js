@@ -9,7 +9,7 @@ import BigSunPage from './BigSunPage'
 
 const Webpages = () => {
   return (
-    <Router>
+    <Router basename="/gabriellefulk.github.io">
       <Route exact path="/" component={Main} />
       <Route path = "/big-sun-solar-internship" component = {BigSunPage} />
     </Router>
