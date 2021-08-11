@@ -1,4 +1,5 @@
 import React from "react"
+import { useEffect } from "react"
 import Survey2 from "../assets/Survey2.jpg"
 import AdminDisplay1 from "../assets/AdminDisplay1.JPG"
 import AdminDisplay2 from "../assets/AdminDisplay2.JPG"
@@ -8,6 +9,11 @@ import Email from "../assets/EmailVerification.png"
 import SideSpacerColumn from "../components/SideSpacerColumn"
 
 const BigSunPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     return (
         <div className="flex flex-row m-auto">
             <SideSpacerColumn/>

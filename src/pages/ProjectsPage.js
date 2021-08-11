@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import SideSpacerColumn from "../components/SideSpacerColumn"
 import SpacerColumn from "../components/SpacerColumn"
 import ProjectCard from "../components/ProjectCard"
@@ -17,8 +18,18 @@ const ProjectsPage = () => {
             </div>
             <SpacerColumn/>
             <div className="flex flex-row flex-wrap flex-auto m-auto justify-center px-3">
-                <ProjectCard image={websiteSS} name="gabriellefulk.dev" description={websiteDesc} btnName="GITHUB" btnLink="https://github.com/GabrielleFulk/GabrielleFulk.github.io"/>
-                <ProjectCard image={Survey1} name="Big Sun Internship" description={bigSunDesc} btnName="READ MORE" btnLink="/big-sun-solar-internship"/>
+                <ProjectCard 
+                    image={websiteSS} 
+                    name="gabriellefulk.dev" 
+                    description={websiteDesc} 
+                    button={ <a className="button" href="https://github.com/GabrielleFulk/GabrielleFulk.github.io">"GITHUB"</a> } 
+                />
+                <ProjectCard 
+                    image={Survey1}
+                    name="Big Sun Internship" 
+                    description={bigSunDesc} 
+                    button={ <Link to="/big-sun-solar-internship" className="button">READ MORE</Link> }
+                />
             </div>
             <SideSpacerColumn/>
         </div>
