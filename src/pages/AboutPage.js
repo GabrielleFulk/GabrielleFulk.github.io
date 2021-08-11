@@ -14,7 +14,7 @@ const AboutPage = () => {
     return (
         <div className="flex flex-row flex-wrap py-32">
             <SideSpacerColumn/>
-            <div className="page-heading pl-10">
+            <div className="page-heading">
                 About Me
             </div>
             <div className="flex flex-row flex-wrap m-auto pl-10 pr-3">

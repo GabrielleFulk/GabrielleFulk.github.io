@@ -7,17 +7,14 @@ const ResumePage = () => {
     return (
         <div className="flex flex-row flex-wrap m-auto pb-10">
             <SideSpacerColumn/>
-            <div className="flex flex-col">
-                <div className="page-heading pl-10">
-                    Resume
-                </div>
+            <div className="page-heading">
+                Resume
             </div>
             <div className="flex flex-row justify-center m-auto pr-3">
-                <div className="flex flex-col w-14 sm:w-0"/>
-                <div className="flex flex-col items-center space-y-3 pt-7">
-                    <img className="h-full w-full rounded-lg border-8 border-xanadu shadow-md" src={resume} alt=""/>
+                <div className="flex flex-col items-center space-y-3 pt-7 pl-10 sm:pl-0">
+                    <img className="rounded-lg shadow-md border-8 border-xanadu" src={resume} alt="Screenshot of resume"/>
                     <a href={resumeDownload} download="GabrielleFulkResume">
-                        <button className= "button">DOWNLOAD</button>
+                        <button className="button">DOWNLOAD</button>
                     </a>
                 </div>
             </div>

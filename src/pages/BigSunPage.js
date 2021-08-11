@@ -1,10 +1,10 @@
 import React from "react"
-import Survey2 from "../assets/Survey2-cropped.jpg"
+import Survey2 from "../assets/Survey2.jpg"
 import AdminDisplay1 from "../assets/AdminDisplay1.JPG"
 import AdminDisplay2 from "../assets/AdminDisplay2.JPG"
 import AdminDisplay3 from "../assets/AdminDisplay3.JPG"
 import NPSText from "../assets/NPSText.jpeg"
-import Email from "../assets/EmailVerification-cropped.png"
+import Email from "../assets/EmailVerification.png"
 import SideSpacerColumn from "../components/SideSpacerColumn"
 
 const BigSunPage = () => {
@@ -12,10 +12,8 @@ const BigSunPage = () => {
         <div className="flex flex-row m-auto">
             <SideSpacerColumn/>
             <div className="flex flex-col w-full">
-                <div className="flex flex-row flex-wrap pt-7">
-                    <div className="page-heading pt-7 pl-2 sm:pl-10">
-                        Big Sun Solar Internship Projects
-                    </div>
+                <div className="text-3xl font-semibold tracking-wide pt-7 pl-2 sm:pl-10">
+                    Big Sun Solar Internship Projects
                 </div>
                 <div className= "text-sm pt-2 pb-4 pl-2 sm:pl-10">
                     *images are from testing, not actual user data
@@ -25,7 +23,7 @@ const BigSunPage = () => {
                 </div>
                 <div className="flex flex-row flex-wrap flex-auto px-3">
                     <div className="flex flex-col flex-auto w-96 max-w-lg space-y-4 p-7">
-                        <div className="text-lg text-title font-bold">
+                        <div className="text-lg font-bold">
                             User Email Verification
                         </div>
                         <p>
@@ -40,7 +38,7 @@ const BigSunPage = () => {
                         <img className="internship-image" src={Email} alt=""/>
                     </div>
                     <div className="flex flex-col flex-auto w-96 max-w-lg space-y-4 p-7">
-                        <div className="text-lg text-title font-bold">
+                        <div className="text-lg font-bold">
                             NPS Text Survey
                         </div>
                         <p>
@@ -53,7 +51,7 @@ const BigSunPage = () => {
                         <img className="internship-image" src={NPSText} alt=""/>
                     </div>
                     <div className="flex flex-col flex-auto w-96 max-w-lg space-y-4 p-7">
-                        <div className="text-lg text-title font-bold">
+                        <div className="text-lg font-bold">
                             NPS Pop-up Survey
                         </div>
                         <p>
