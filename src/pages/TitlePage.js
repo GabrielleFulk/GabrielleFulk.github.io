@@ -3,7 +3,7 @@ import { ChevronDownIcon } from '@heroicons/react/outline'
 
 const TitlePage = () => {
     return (
-        <div className="flex flex-col justify-center items-center h-screen text-8xl sm:text-9xl font-medium text-right tracking-wide">
+        <div className="flex flex-col justify-center items-center h-screen text-7xl sm:text-9xl font-medium text-right tracking-wide">
             <div className="flex flex-row justify-center">
                 Gabrielle<br/>Fulk
             </div>

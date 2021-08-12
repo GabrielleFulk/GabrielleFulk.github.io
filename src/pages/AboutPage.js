@@ -34,9 +34,9 @@ const AboutPage = () => {
                     </div>
                     <div>
                         I have always loved puzzles, logic questions, and strategy games. When I discovered computer science it seemed like all the things I’ve 
-                        found enjoyment in and been good at came together. I love the problem solving of computer science that keeps it constantly interesting 
-                        and challenging. The ability to be creative within such a logical field allows all aspects of my interests to join. This love of logic, 
-                        problem solving, and creativity has led me to be interested in software development as well as all things data related. 
+                        enjoyed and excelled at came together. I love the problem solving of computer science that keeps it constantly interesting 
+                        and challenging. The ability to be creative within such a logical field allows me to combine all aspects of my interests. This love of logic, 
+                        problem solving, and creativity led me to software development and all things data related. 
                         <br/><br/>
                         Aside from computer science I enjoy finding new coffee shops, working on any sort of craft project, reading, and diving. I’m passionate 
                         about supporting women in technology, sustainability and climate change, and health/fitness.
