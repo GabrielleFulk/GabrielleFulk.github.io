@@ -12,12 +12,12 @@ import PoolOutlinedIcon from '@material-ui/icons/PoolOutlined'
 
 const AboutPage = () => {
     return (
-        <div className="flex flex-row flex-wrap py-24">
+        <div className="flex flex-col py-24">
             <SideSpacerColumn/>
-            <div className="page-heading">
+            <div className="page-heading text-left pl-14 sm:pl-28">
                 About Me
             </div>
-            <div className="flex flex-row flex-wrap m-auto pl-14 sm:pl-10 pr-3">
+            <div className="flex flex-row flex-wrap m-auto w-full pl-14 sm:pl-72 pr-3 sm:pr-28 sm:-mt-5">
                 <div className="flex flex-col py-5">
                     <img className= "self-center rounded-lg" src={headshot} alt="Headshot"/>
                 </div>
@@ -43,7 +43,6 @@ const AboutPage = () => {
                     </div>
                 </div>
             </div>
-            <SideSpacerColumn/>
         </div>
     )
 }
